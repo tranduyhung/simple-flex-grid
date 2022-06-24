@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="flex-grid.css">
+    <style>
+      .grid-display {
+        margin: 20px 0;
+      }
+
+      .inner {
+        border: 1px solid #000;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0.5rem;
+        padding: 0.5rem;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-display">
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-1">
+          <div class="inner">one</div>
+        </div>
+        <div class="grid-col grid-col-md-11">
+          <div class="inner">eleven</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-2">
+          <div class="inner">two</div>
+        </div>
+        <div class="grid-col grid-col-md-10">
+          <div class="inner">ten</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-3">
+          <div class="inner">three</div>
+        </div>
+        <div class="grid-col grid-col-md-9">
+          <div class="inner">nine</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-4">
+          <div class="inner">four</div>
+        </div>
+        <div class="grid-col grid-col-md-8">
+          <div class="inner">eight</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-5">
+          <div class="inner">five</div>
+        </div>
+        <div class="grid-col grid-col-md-7">
+          <div class="inner">seven</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-6">
+          <div class="inner">six</div>
+        </div>
+        <div class="grid-col grid-col-md-6">
+          <div class="inner">six</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-12">
+          <div class="inner">twelve</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-3">
+          <div class="inner">three</div>
+        </div>
+        <div class="grid-col grid-col-md-3">
+          <div class="inner">three</div>
+        </div>
+        <div class="grid-col grid-col-md-3">
+          <div class="inner">three</div>
+        </div>
+        <div class="grid-col grid-col-md-3">
+          <div class="inner">three</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-6 grid-col-lg-12">
+          <div class="inner">six but twelve on large screen</div>
+        </div>
+        <div class="grid-col grid-col-md-6 grid-col-lg-12">
+          <div class="inner">six but twelve on large screen</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col grid-col-md-4">
+          <div class="inner">first but unordered</div>
+        </div>
+        <div class="grid-col grid-col-md-4 grid-order-md-2">
+          <div class="inner">second but last on desktop</div>
+        </div>
+        <div class="grid-col grid-col-md-4 grid-order-md-1">
+          <div class="inner">third but first on desktop</div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-col-4">
+          <div class="inner">first but unordered</div>
+        </div>
+        <div class="grid-col-4 grid-order-sm-2">
+          <div class="inner">second but last on mobile</div>
+        </div>
+        <div class="grid-col-4 grid-order-sm-1">
+          <div class="inner">third but first on mobile</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
